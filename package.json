@@ -1,0 +1,22 @@
+{
+  "name": "mkdirp-omen",
+  "version": "0.0.1",
+  "description": "mkdirp returning a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && node run.js"
+  },
+  "keywords": [
+    "mkdirp",
+    "promise",
+    "fs",
+    "mkdir"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "mkdirp": "^0.5.1",
+    "setimmediate": "^1.0.2"
+  }
+}
